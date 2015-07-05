@@ -3,7 +3,7 @@ body {
 	font-family: 'Open-Sans', sans-serif;
 }
 
-h1, h2{
+h1	{
 	font-family: "Montserra";
 	color: white;
 	font-weight: 400;
@@ -13,8 +13,7 @@ h1, h2{
 }
 
 #announcement {
-	padding: 20px;
-	margin: 80px;
+	
 	color: #7F055F;
 	font-family: "Raleway";
 	font-size: 24px;
@@ -36,5 +35,6 @@ h1, h2{
 
 .border {
 	margin: 30px auto;
+	padding-bottom: 10px;
 	border: 2px solid white;
 }
