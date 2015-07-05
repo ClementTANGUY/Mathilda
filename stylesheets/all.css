@@ -9443,72 +9443,43 @@ button.close {
 
 /* line 1, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
 body {
-  background: linear-gradient(to right, #ECE9E6, white); }
+  background-color: #E5A4CB;
+  font-family: 'Open-Sans', sans-serif; }
 
-/* line 5, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-#wrapper {
-  background-image: url("../images/shutterstock_132344318.jpg");
-  height: 920px;
-  padding-top: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  color: #ecf0f1; }
-  /* line 13, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-  #wrapper h1, #wrapper h2 {
-    font-family: "Raleway"; }
-
-/* line 19, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-.features p {
+/* line 6, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+h1, h2 {
+  font-family: "Montserra";
+  color: white;
   font-weight: 400;
-  color: #474044; }
-/* line 23, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-.features img {
-  margin-bottom: 1em; }
-
-/* line 28, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-#banner {
-  background: #00BDF0;
-  height: 280px;
-  padding-top: 80px;
-  font-weight: 400;
-  font-size: 24px;
+  font-size: 38px;
   line-height: 40px;
-  color: white; }
+  letter-spacing: 2px; }
 
-/* line 38, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-.bg-white {
-  background: white;
-  color: #474044;
-  font-size: 12px;
-  height: 180px;
-  padding: 15px;
-  margin: 1px auto;
-  border-radius: 10px;
-  box-shadow: 1px 1px 3px #aaaaaa; }
-  /* line 47, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-  .bg-white a {
-    color: #474044; }
-    /* line 49, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-    .bg-white a :hover {
-      color: #00BDF0; }
-  /* line 53, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-  .bg-white :hover {
-    background: #ecf0f1;
-    text-decoration: none; }
-
-/* line 59, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-#About {
-  font-weight: 300;
-  color: #474044; }
-  /* line 62, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-  #About img {
-    margin-bottom: 1em; }
-
-/* line 67, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-.title {
+/* line 15, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+#announcement {
+  padding: 20px;
+  margin: 80px;
+  color: #7F055F;
+  font-family: "Raleway";
   font-size: 24px;
-  text-shadow: 1px 1px 3px #aaaaaa; }
+  letter-spacing: 1px;
+  font-weight: 400;
+  border-radius: 10px; }
+
+/* line 27, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+.vertical-spacer {
+  height: 2em; }
+
+/* line 31, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+.details {
+  color: #7F055F;
+  font-weight: 300;
+  letter-spacing: 1px; }
+
+/* line 37, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+.border {
+  margin: 30px auto;
+  border: 2px solid white; }
 
 /*
 ==============================================
