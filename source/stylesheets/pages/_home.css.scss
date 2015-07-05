@@ -1,0 +1,40 @@
+body {
+    background-color: #E5A4CB;
+	font-family: 'Open-Sans', sans-serif;
+}
+
+h1, h2{
+	font-family: "Montserra";
+	color: white;
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+
+#announcement {
+	padding: 20px;
+	margin: 80px;
+	color: #7F055F;
+	font-family: "Raleway";
+	font-size: 24px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	border-radius: 10px;
+
+}
+
+.vertical-spacer {
+	height: 2em;
+}
+
+.details {
+	color: #7F055F;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.border {
+	margin: 30px auto;
+	border: 2px solid white;
+}
