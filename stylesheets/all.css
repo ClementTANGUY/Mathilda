@@ -9464,17 +9464,13 @@ h1 {
   font-weight: 400;
   border-radius: 10px; }
 
-/* line 26, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-.vertical-spacer {
-  height: 2em; }
-
-/* line 30, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+/* line 25, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
 .details {
   color: #7F055F;
   font-weight: 300;
   letter-spacing: 1px; }
 
-/* line 36, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+/* line 31, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
 .border {
   margin: 30px auto;
   padding-bottom: 10px;
