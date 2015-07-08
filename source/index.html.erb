@@ -11,8 +11,6 @@
       </div>
     </div>
     
-    <div class="vertical-spacer"></div>
-    
     <div class="container text-center" id="announcement">
 
       <div class="text-center slideRight">
@@ -21,8 +19,9 @@
               
       <p>C'est avec une joie immense que nous vous annonçons la naissance de notre fille
       <h1>MATHILDA</h1>
-      <br>le 10 juillet 2015 à 
+      Le 10 juillet 2015 à 
       <br>Elle pèse kg pour cm et se porte à merveille</p>
+      
 
       <div class="text-center">
         <% link_to '#video' do %>
@@ -32,40 +31,48 @@
               
     </div>
 
-    <div class="vertical-spacer"></div>
+    
     <div class="vertical-spacer"></div>
     
     <div class="container text-center" id="video">
+
       <div class="visible-xs-* hidden-sm hidden-md hidden-lg">
-        <video src="images/3077605.mp4" width="350" preload="true" autoplay="true" loop="true" poster=""></video>
+        <video width="350" preload="true" autoplay="true" loop="true" poster="">
+          <source src="images/3077605.mp4" type="video/mp4"/>
+        </video>
       </div>
       <div class="hidden-xs visible-sm-* hidden-md hidden-lg">
-        <video src="images/3077605.mp4" width="550" preload="true" autoplay="true" loop="true" poster=""></video>
+        <video width="550" preload="true" autoplay="true" loop="true" poster="">
+          <source src="images/3077605.mp4" type="video/mp4"/>
+        </video>
       </div>
       <div class="hidden-xs hidden-sm visible-md-* hidden-lg">
-        <video src="images/3077605.mp4" width="750" preload="true" autoplay="true" loop="true" poster=""></video>
+        <video width="750" preload="true" autoplay="true" loop="true" poster="">
+          <source src="images/3077605.mp4" type="video/mp4"/>
+        </video>
       </div>
       <div class="hidden-xs hidden-sm hidden-md visible-lg-*">
-        <video src="images/3077605.mp4" width="950" preload="true" autoplay="true" loop="true" poster=""></video>
+        <video width="950" preload="true" autoplay="true" loop="true" poster="">
+          <source src="images/3077605.mp4" type="video/mp4"/>
+        </video>
       </div>
+
     </div>
 
     <div class="vertical-spacer"></div>
 
-    <div class="container details text-center">
-      <p>Céline VINCENT et Clément TANGUY
-      <br>5 rue Lavoisier
-      <br>75008 Paris
-      <br>0617172340 / 0624562658
-      </p>
-    </div>
-
-    <div class="container text-center">
+    <div class="container">
      <div class="row">
-        <div class="col-xs-6 text-center">
+        <div class="col-xs-4 text-center">
           <%= image_tag"tétine.svg"%> 
         </div>
-        <div class="col-xs-6 text-center">
+        <div class="col-xs-4 details text-center">
+          <p>Céline VINCENT et Clément TANGUY
+          <br>5 rue Lavoisier 75008 Paris
+          <br>0617172340 / 0624562658
+          </p>
+        </div>
+        <div class="col-xs-4 text-center">
           <%= image_tag"tétine.svg"%> 
         </div>
       </div>
