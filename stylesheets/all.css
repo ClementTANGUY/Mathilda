@@ -9448,7 +9448,7 @@ body {
 
 /* line 6, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
 h1 {
-  font-family: "Montserra";
+  font-family: "Montserrat";
   color: white;
   font-weight: 400;
   font-size: 38px;
@@ -9464,14 +9464,14 @@ h1 {
   font-weight: 400;
   border-radius: 10px; }
 
-/* line 25, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+/* line 29, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
 .details {
   color: #7F055F;
   font-weight: 300; }
 
-/* line 30, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+/* line 34, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
 .border {
-  margin: 30px auto;
+  margin: 50px auto;
   padding-bottom: 10px;
   border: 2px solid white; }
 
