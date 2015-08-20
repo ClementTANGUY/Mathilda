@@ -22,8 +22,8 @@
       <p>C'est avec une immense joie que nous vous annonçons la naissance de notre fille
       <h1>MATHILDA</h1>
       le 10 juillet 2015</p>
-      <p>Merci à tous pour vos voeux et cadeaux
-      <br>Gros bisoux de la petite famille
+      <p>Merci à tous pour vos voeux et sa garde-robe déjà bien garnie
+      <br>Gros bisous de la petite famille
       <br> ♡  ♡ 
       </p>
       
@@ -42,14 +42,10 @@
     <div class="container text-center" id="video">
 
       <div class="visible-xs-* hidden-sm hidden-md hidden-lg">
-        <video width="350" preload="true" autoplay="true" loop="true" poster="images/Mathilda.JPG">
-          <source src="images/Mathilda.mp4" type="video/mp4"/>
-        </video>
+        <%= image_tag"Mathilda.JPG", width:350 %> 
       </div>
       <div class="hidden-xs visible-sm-* hidden-md hidden-lg">
-        <video width="550" preload="true" autoplay="true" loop="true" poster="images/Mathilda.JPG">
-          <source src="images/Mathilda.mp4" type="video/mp4"/>
-        </video>
+        <%= image_tag"Mathilda.JPG", width:550 %> 
       </div>
       <div class="hidden-xs hidden-sm visible-md-* hidden-lg">
         <video width="750" preload="true" autoplay="true" loop="true" poster="images/Mathilda.JPG">
@@ -88,16 +84,6 @@
 
     window.sr = new scrollReveal();
 
-  </script>
-
-  <script>
-        $(document).ready(function(){
-      $(".img-popover").popover({
-        html: true,
-        trigger: "hover",
-        placement: "bottom"
-      });
-    })
   </script>
  
 
