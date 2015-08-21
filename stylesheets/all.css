@@ -9464,12 +9464,19 @@ h1 {
   font-weight: 400;
   border-radius: 10px; }
 
-/* line 29, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
-.details {
+/* line 25, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+#video {
   color: #7F055F;
-  font-weight: 300; }
+  font-family: "Raleway";
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 400; }
 
-/* line 34, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+/* line 33, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
+.details {
+  color: #7F055F; }
+
+/* line 37, /Users/clementtanguy/Desktop/Projets/Code/Mathilda/source/stylesheets/pages/_home.css.scss */
 .border {
   margin: 25px auto 25px auto;
   padding-bottom: 10px;
